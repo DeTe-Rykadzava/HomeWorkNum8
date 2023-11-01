@@ -11,11 +11,11 @@ public class AnimalFactory
     
     public static Animal CreateDog()
     {
-        return new Animal("Dog", "Woof");
+        return new Animal("Dog", "Woof Woof");
     }
     
     public static Animal CreateDuck()
     {
-        return new Animal("Duck", "Quack");
+        return new Animal("Duck", "Quack Quack");
     }
 }
